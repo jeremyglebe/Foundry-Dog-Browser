@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     sourcemap: true,
     rollupOptions: {
-      input: 'src/js/module.js',
+      input: 'src/ts/module.ts',
       output: {
         entryFileNames: 'scripts/module.js',
         format: 'es',
