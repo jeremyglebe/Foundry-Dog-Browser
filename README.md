@@ -1,0 +1,1 @@
+Module Manifest (for installing): [https://github.com/jeremyglebe/Foundry-Dog-Browser/releases/latest/download/module.json](https://github.com/jeremyglebe/Foundry-Dog-Browser/releases/latest/download/module.json)

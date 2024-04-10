@@ -1,0 +1,18 @@
+{
+  "id": "doggo-browser",
+  "title": "Doggo Browser",
+  "description": "Get random doggos from the actor tab!",
+  "authors": [
+    {
+      "name": "Jeremy Glebe",
+      "email": "jeremyglebe@gmail.com"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": ["scripts/module.js"],
+  "styles": ["styles/module.css"]
+}

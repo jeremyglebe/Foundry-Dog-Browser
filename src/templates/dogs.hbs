@@ -1,0 +1,19 @@
+<section>
+  <header class='flex-header'>
+    <h1>
+      Dog Browser
+    </h1>
+    <button type='button' class='module-control' title='Fetch random dog photo' data-action='randomize-dog'>
+      <i class='fas fa-random fa-fw'></i>
+    </button>
+  </header>
+</section>
+<section class='module-dog-picture-container'>
+  {{#if this.imageUrl}}
+    <img class='module-dog-image' src='{{this.imageUrl}}' alt='Image of a random dog' />
+  {{else}}
+    <p class='module-dog-placeholder'>
+      🐶
+    </p>
+  {{/if}}
+</section>
